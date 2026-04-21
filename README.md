@@ -1,4 +1,4 @@
-# simplified_stock_market
+# trading_engine
 
 ## Running tests
 
