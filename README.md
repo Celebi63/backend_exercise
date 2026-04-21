@@ -22,6 +22,7 @@ The entire environment (Nginx, Node apps, Redis) is containerized. To spin it up
 
 ```bash
 PORT=4000 docker-compose up --build
+```
 The API will be accessible at http://localhost:4000.
 
 Testing
@@ -29,9 +30,11 @@ The repository includes automated integration tests (Jest + Supertest) covering 
 
 To run the tests:
 
-Bash
+```bash
 npm install
 npm test
+```
+
 Core Endpoints
 POST /wallets/{id}/stocks/{name} - Buy or sell a stock
 
